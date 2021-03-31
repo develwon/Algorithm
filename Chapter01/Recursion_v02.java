@@ -5,20 +5,22 @@ class Main {
         /*
          * Recursion Algorithm version 02 
          *  
+         * Recursion function Method Type is int.
+         * main Method calling Recursion function and return int Type.
          * 
-         * 
-         * 
-         * 
+         * Finaly Parameter num is return 0 and sysout is print "Total Odd Number" 
          * 
          */
          int result = Recursion(100);
-         System.out.println("Total Odd number = " + result);
+         System.out.println("Total Odd Number = " + result);
     }
-    public static void Recursion(int num){
-        if(num == 0){
+    public static int Recursion(int num){
+        if( num == 0){
             return 0;
-        }else{
+        }else if( num%2==1){
             return num + Recursion(num-1);
+        }else{
+            return 0 + Recursion(num-1);
         }
     }
 }
