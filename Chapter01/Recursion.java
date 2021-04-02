@@ -29,6 +29,6 @@ class Main {
                 
             }
         }
-        Recursion(num - 1);
+        Recursion(--num);
     }
 }
