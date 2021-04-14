@@ -20,7 +20,7 @@ class Main {
         }else if( num%2==1){
             return num + Recursion(num-1);
         }else{
-            return 0 + Recursion(num-1);
+            return Recursion(num-1);
         }
     }
 }
