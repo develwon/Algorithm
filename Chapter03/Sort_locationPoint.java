@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-        /**      
-         *     #url 첨부 : https://www.acmicpc.net/problem/11650   
-         *     
-         *     좌표 정렬하기
-         *     
+      /**      
+        *     #url 첨부 : https://www.acmicpc.net/problem/11650   
+        *     
+        *     좌표 정렬하기
+        *     
         *    문제 
         *    2차원 평면 위의 점 N개가 주어진다. 좌표를 x좌표가 증가하는 순으로, 
         *    x좌표가 같으면 y좌표가 증가하는 순서로 정렬한 다음 출력하는 프로그램을 작성하시오.
@@ -27,6 +27,19 @@ class Main {
         *    1 -1                 3 3
         *    2 2                  3 4
         *    3 3
+        *
+        *    # Example test set
+        *    3                    -1 -1
+        *    1 1                  0 -1
+        *    0 -1                 1 1
+        *    -1 -1
+        *
+        *    5                    -2 -1
+        *    2 1                  0 -1
+        *    2 0                  0 0
+        *    0 0                  2 0
+        *    0 -1                 2 1
+        *    -2 -1
         **/
       Scanner scn = new Scanner(System.in);
       int cnt = scn.nextInt();
